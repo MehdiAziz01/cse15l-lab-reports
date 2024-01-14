@@ -7,6 +7,8 @@ this gives us: [user@sahara ~/lecture1]$ that is the directory that we are curre
 this will give me    bash: cd: lecture1/messages/es-mx.txt: Not a directory 
 so a cd cant go into a file
 
+![image](cd.png)
+
 ls
 1 (no arguements) : ls 
 this gives me   lecture1
