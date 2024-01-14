@@ -20,7 +20,12 @@ this gives me lecture1/messages/en-us.txt which is the where my output took me b
 
 ![image](ls.png)
 
-cat
-1 (no arguments) : cat
+## cat
+#### 1 (no arguments) : cat
 makes your code go crazy and you can only get out by doing control c
-2 (path to a directory with argument) : cat lecture1/
+#### 2 (path to a directory with argument) : cat lecture1/ 
+this gives us cat: lecture1/: Is a directory and you can't concatenate a directory it must be a file.
+#### 3 ( path to a file as an arguement) : [user@sahara ~]$ cat lecture1/messages/en-us.txt 
+this gives us our desired out put of Hello World! just what we were looking for.
+
+![image](cat.png)
