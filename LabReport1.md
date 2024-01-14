@@ -1,11 +1,12 @@
-cd
-1 (no arguements) : cd
-this gives no output
-2 (path to directory with argument): cd lecture1/
-this gives us: [user@sahara ~/lecture1]$ that is the directory that we are currently in
-3 (path to a file as an arguement): cd lecture1/messages/es-mx.txt
-this will give me    bash: cd: lecture1/messages/es-mx.txt: Not a directory 
-so a cd cant go into a file
+## cd
+#### 1 (no arguements) : cd
+this gives no output because we aren't telling it which directory we should change into.
+#### 2 (path to directory with argument): cd lecture1/
+   this gives us: [user@sahara ~/lecture1]$ that is the directory that we are currently in and it has changed into lecture1 directory from home.
+#### 3(path to a file as an arguement): cd lecture1/messages/en-us.txt
+this will give me    
+bash: cd: messages/en-us.txt: Not a directory\
+so a cd cant go into a file because its function is to change directories.
 
 ![image](cd.png)
 
