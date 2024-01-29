@@ -29,12 +29,12 @@ this gives me `hello.txt` which is the where my output took me but it still keep
 # `cat`
 ### 1
 #### (no arguments) : `cat`
-makes your code go crazy and you can only get out by doing `control c`
+makes your code go crazy and you can only get out by doing `control c`. It is rewriting everything you write and the code keeps going as you can see. I did the `cat` command while I was in the `/home` directory and I stayed in the `/home` directory. I am going to say this is `not an error` although it seems like it is. The reason I say this is because it is technically doing its job at concatenating the words I am typing. I am on the fence if this is an `error` or not I must say.
 ### 2
 #### (path to a directory with argument) : `cat lecture1/` 
-this gives us `cat: lecture1/: Is a directory and you can't concatenate a directory it must be a file.`
+this gives us `cat: lecture1/: Is a directory` you can't concatenate a directory it must be a file. I was in the `/home` directory when I ran that code and I remained in the `/home` directory. This is an `error` it needs to read what is in the files.
 ### 3
-#### ( path to a file as an arguement) : `[user@sahara ~]$ cat lecture1/messages/en-us.txt`
-this gives us our desired out put of `Hello World!` just what we were looking for. but that keeps us in the `home` directory after.
-
-![image](cat.png)
+#### ( path to a file as an arguement) : `[user@sahara ~]$ cat lecture1/messages/es-mx.txt`
+this gives us our desired out put of `¡Hola Mundo!` just what we were looking for. but that keeps us in the `home` directory after right where we started. When the concatenate ran I was in the `/messages` directory but after it executed I was back at `/home`. This is `not an error`.
+##### image for cat below!
+![image](catlab1)
