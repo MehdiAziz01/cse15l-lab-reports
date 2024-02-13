@@ -1,6 +1,6 @@
 # Part 1
 ## I will be doing `ArrayExamples.java` for part 1.
-## `A failure inducing input:`
+## `A failure inducing input with symptoms:`
 ![image](FailureInput)
 (base) mehdi@Mehdis-Air lab3 % javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java                              
 (base) mehdi@Mehdis-Air lab3 % java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
@@ -85,8 +85,35 @@ public class ArrayExamples {
     return arr;
   }
 
-## `Input that does not include failure`
+## `Input that does not include failure with the symptoms fixed:`
+The fix addresses the issue because in the failed method it is overwriting values. So I created a newArray which is reversing everything but I am just returning it as the array. for the method that is returning the new array the `arr[i]` was giving values to the wrong direction so I had to see exactly where each value is going and how it is transfering;.
+![image](CorrectCode)
+import static org.junit.Assert.*;
+import org.junit.*;
 
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 1,2,3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3,2,1 }, input1);
+	}
+
+ (base) mehdi@Mehdis-Air lab3 % javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+(base) mehdi@Mehdis-Air lab3 % java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
+JUnit version 4.13.2
+..
+Time: 0.003
+
+OK (2 tests)
+
+
+
+  @Test
+  public void testReversed() {
+    int[] input1 = {1,3,5 };
+    assertArrayEquals(new int[]{ 5,3,1}, ArrayExamples.reversed(input1));
+  }
 
 
 
