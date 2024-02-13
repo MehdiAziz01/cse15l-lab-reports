@@ -116,7 +116,7 @@ OK (2 tests)
   }
 
 
-`Fixed up code:` ![image](FIXED)
+`Fixed up code:` ![image](FixedUp)
 
 # part 2
 # _find_
