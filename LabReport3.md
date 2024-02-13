@@ -1,5 +1,6 @@
 # Part 1
 ## I will be doing `ArrayExamples.java` for part 1.
+## I can include screenshots of output but for the code i did or the fail code outline I need it as a code block markdown.
 ## `A failure inducing input with symptoms:`
 ![image](FailureInput)
 
