@@ -1,4 +1,6 @@
 # Part 1
+## I will be doing `ArrayExamples.java` for part 1.
+### A failure inducing input:
 
 
 
