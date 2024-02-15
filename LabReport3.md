@@ -1,48 +1,29 @@
 # Part 1
 ## I will be doing `ArrayExamples.java` for part 1.
-## I can include screenshots of output but for the code i did or the fail code outline I need it as a code block markdown.
 ## `A failure inducing input with symptoms:`
 ![image](FailureInput)
 
 
 ![image](failurecode)
-import static org.junit.Assert.*;
-import org.junit.*;
+## code that was failing
+`public class ArrayExamples {`
 
-public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 1,2,3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3,2,1 }, input1);
-	}
-
-
-  @Test
-  public void testReversed() {
-    int[] input1 = {1,3,5 };
-    assertArrayEquals(new int[]{ 5,3,1}, ArrayExamples.reversed(input1));
-  }
-}
-![image](FAILURE)
-public class ArrayExamples {
-
-  // Changes the input array to be in reversed order
+  `// Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }
+  }`
 
-  // Returns a *new* array with all the elements of the input array in reversed
-  // order
-  static int[] reversed(int[] arr) {
+ ` // Returns a *new* array with all the elements of the input array in reversed
+  // order`
+  `static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
-  }
+  }`
 
 ## `Input that does not include failure with the symptoms fixed:`
 The fix addresses the issue because in the failed method it is overwriting values. So I created a newArray which is reversing everything but I am just returning it as the array. for the method that is returning the new array the `arr[i]` was giving values to the wrong direction so I had to see exactly where each value is going and how it is transfering;.
@@ -70,24 +51,8 @@ The fix addresses the issue because in the failed method it is overwriting value
    ` return newArray;
   }`
 ------------------------
-import static org.junit.Assert.*;
-import org.junit.*;
+![image](late)
 
-public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 1,2,3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3,2,1 }, input1);
-	}
-
- (base) mehdi@Mehdis-Air lab3 % javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-(base) mehdi@Mehdis-Air lab3 % java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
-JUnit version 4.13.2
-..
-Time: 0.003
-
-OK (2 tests)
 
 
 
