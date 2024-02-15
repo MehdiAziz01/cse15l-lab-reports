@@ -62,10 +62,10 @@ The fix addresses the issue because in the failed method it is overwriting value
     assertArrayEquals(new int[]{ 5,3,1}, ArrayExamples.reversed(input1));
   }
 
+  ## bug: You can see between both code markdowns the differences and changes that were made in the arrays.
+  
+# part 2!!!
 
-`Fixed up code:` ![image](FixedUp)
-
-# part 2
 # _find_
 `The only source I will be referencing is here : `
 https://snapshooter.com/learn/linux/find#:~:text=With%20the%20find%20command%2C%20you,in%20all%20Linux%20operating%20systems.
