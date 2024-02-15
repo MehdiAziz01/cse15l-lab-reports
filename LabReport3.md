@@ -46,7 +46,30 @@ public class ArrayExamples {
 
 ## `Input that does not include failure with the symptoms fixed:`
 The fix addresses the issue because in the failed method it is overwriting values. So I created a newArray which is reversing everything but I am just returning it as the array. for the method that is returning the new array the `arr[i]` was giving values to the wrong direction so I had to see exactly where each value is going and how it is transfering;.
-![image](CorrectCode)
+
+`public class ArrayExamples {`
+
+  `// Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }`
+   ` for ( int j = 0; j < newArray.length; j++) {
+      arr[j] = newArray[j];
+    }
+  }`
+`//[1,2,3]
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order`
+ ` static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }`
+   ` return newArray;
+  }`
+------------------------
 import static org.junit.Assert.*;
 import org.junit.*;
 
