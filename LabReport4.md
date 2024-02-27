@@ -1,5 +1,5 @@
 
- # `Step 4`
+# `Step 4`
 I clicked on the terminal and 
 `The keys pressed:` `m4aziz@ieng6-201.ucsd.edu<enter>, cs15l<tab> to give cs15lwi24 <enter>`
 
