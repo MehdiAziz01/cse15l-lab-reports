@@ -14,7 +14,7 @@ I clicked on the terminal and
 
 ![image](Step5)
 
-# ` Step 6`
+# `Step 6`
 `Steps taken:` `ls<enter>, cd lab7/<enter>, ls, cat test.sh<enter>, bash test.sh<enter>`
 
 `Explanation:` First step showed me the directories and the lab7 which I wanted to access, I changed directory into lab7 to have access to the folders in lab7 and ls showed me which ones there were. I did cat on the test.sh file to see what was in that directory and there were test lines for me to run my code with. Then I run test.sh with bash and this the output that got printed was the output in my screenshot.
