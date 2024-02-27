@@ -44,3 +44,6 @@ Explanation:` I first clicked k because I needed to go up to the error then I cl
 `Explanation:` Upon exiting vim in the next step I checked what directory access I had by doing the ls and ran the test one final time with bash test.sh and I passed my test cases.
 
 ![image](Step8passingTest)
+
+# `Step 9`
+
