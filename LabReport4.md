@@ -19,3 +19,12 @@ first step showed me the directories and the lab7 which I wanted to access, I ch
 
 `Below is an image of the code previous to being fixed.`
 ![image](Step7failingOutput)
+
+`Below is the image of the fixed code`
+k 3 times
+![image](Step7fixedCode)
+
+
+# `Step 8`
+
+![image](Step8passingTest)
