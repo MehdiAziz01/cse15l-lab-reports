@@ -1,10 +1,16 @@
 ## `Student:`
-![image](studentError)
-Upon running my code, an `index out of bounds exception` is being thrown. With numerous variables in play, it's challenging to identify which one is causing the issue while traversing my sample array. I was hoping you can help me spot this error and give me some feedback on it. My guess is that my i or j variable is causing this array to get out of the range of length 3 for nums.
+![image](studentWrongOutput)
+Upon running my code, I am getting just 1 , 2 but I need to return the indices of the integers that add up to the target number. I want the output to be in square brackets but I am just getting the numbers. I think my error may be in initializing my `result` array and I believe I may not be returning the array correctly.
 
 ## `TA:`
-Based on the code you've provided, it seems that the issue might lie within the ranges used when iterating through the `nums` array inside your for loop. I suggest experimenting with the boundaries of the iteration over the `nums` array. Feel free to contact me if you have any further questions or need assistance.
+Upon reviewing the code you provided, it appears that a potential solution to the issue might involve modifying your `System.out.println` statement. Take a closer look at how the output is currently being printed and consider how you can incorporate square brackets around it. Reflect on the mechanics of the `System.out.println` command and explore ways to manipulate its output format. Feel free to reach out to me if you require additional assistance with this matter.
 
 ## `Student:`
 ![image](studentSuccess)
-I'm really pleased to share that I managed to resolve the issue! It turned out that the problem stemmed from using `<=` instead of `<` in my loop conditions. I realized that by initializing `i` and `j` to 0, using `<=` would lead to accessing elements beyond the array bounds. Changing it to `<` fixed the problem, and now my code runs smoothly, producing the desired result. It's moments like these that remind me of the importance of paying attention to array indices in programming. If I encounter any more challenges or need further guidance, I won't hesitate to ask. Thanks for your help!
+I have resolved the issue! While I was looking within the method I gave no thought to how I could get my desired output from manipulating the `system.out.println`. I added brackets before the result at index zero and after the result at index 1. This made it so my output looked like [1,2] rather than just 1 , 2. Thank you so much for your help!
+
+
+## `Contents of file before fixing bug:`
+![image](studentWrongOutput)
+
+
