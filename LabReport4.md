@@ -1,16 +1,16 @@
 
 # `Step 4`
 I clicked on the terminal and 
-`The keys pressed:` `m4aziz@ieng6-201.ucsd.edu<enter>, cs15l<tab> to give cs15lwi24 <enter>`
+`The keys pressed:` `ssh m4aziz@ieng6-201.ucsd.edu<enter>, cs15l<tab> to give cs15lwi24 <enter>`
 
-`Explanation:` The reason I added the 201 was because that was one of the machines it worked on and originally it was connecting to machine 203 which wasn't letting me run.
+`Explanation:` The reason I added the 201 was because that was one of the machines it worked on and originally it was connecting to machine 203 which wasn't letting me run. the "enter" is what will execute the line and activate my login into my ucsd account.
 
 ![image](Step4)
 
 # `Step 5`
-`Steps taken:` `I went to github on browser, forked the repository, then I clicked the copy on the ssh url, and went to vs code and did git clone ctrl v`
+`Steps taken:` I went to github on browser, forked the repository, then I clicked the copy on the ssh url, and went to vs code and did git clone ctrl v.
 
-`Explanation:` I ran the first and second command to fork it, and the third because I needed to copy the url and the button was right there easy to access, for the 4th step I opened upvscode and in the terminal I git cloned the repository so I could have access with the files.`
+`Explanation:` I ran the first and second command to fork it, and the third because I needed to copy the url and the button was right there easy to access, for the 4th step I opened upvscode and in the terminal I git cloned the repository so I could have access with the files.
 
 ![image](Step5)
 
