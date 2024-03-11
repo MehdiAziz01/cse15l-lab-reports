@@ -15,6 +15,8 @@ I have resolved the issue! While I was looking within the method I gave no thoug
 ## `Contents of file before fixing bug:`
 ![image](studentWrongOutput)
 
+## `Contents of my test.sh file before and after fixing bugs:`
+![image](bashContents)
 
 
 
