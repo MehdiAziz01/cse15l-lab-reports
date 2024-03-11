@@ -9,8 +9,12 @@ Upon reviewing the code you provided, it appears that a potential solution to th
 ![image](studentSuccess)
 I have resolved the issue! While I was looking within the method I gave no thought to how I could get my desired output from manipulating the `system.out.println`. I added brackets before the result at index zero and after the result at index 1. This made it so my output looked like [1,2] rather than just 1 , 2. Thank you so much for your help!
 
+## `My file and directory Structure:`
+![image](directory)
 
 ## `Contents of file before fixing bug:`
 ![image](studentWrongOutput)
+
+
 
 
