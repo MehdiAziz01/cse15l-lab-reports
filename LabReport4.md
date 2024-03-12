@@ -48,9 +48,9 @@ Explanation: Upon exiting vim in the next step I checked what directory access I
 
 # Step 9
 
-Steps taken: `git add ListE<tab><enter>, git commit -m "Fixed the bug"<enter>, git push<enter>`
+Steps taken: `git add ListExamples.java<enter>, git commit -m "Fixed the bug"<enter>, git push<enter>`
 
-Explanation: I did the `git add ListE<tab>` to quick access ListExamples.java and I was adding ListExamples to the staging area. I then did `git commit` to place it in my local git repository, Finally I did `git push` to push the file into my github repository.
+Explanation: I did the `git add ListExamples.java` I was adding `ListExamples.java` to the staging area. I then did `git commit` to place it in my local git repository, Finally I did `git push` to push the file into my github repository.
 
 ### The image below is the code I used
 
