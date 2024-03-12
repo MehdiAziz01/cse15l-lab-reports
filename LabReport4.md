@@ -3,7 +3,7 @@
 I clicked on the terminal and 
 `The keys pressed:` `ssh m4aziz@ieng6-201.ucsd.edu<enter>, cs15l<tab> to give cs15lwi24 <enter>`
 
-`Explanation:` The reason I added the 201 was because that was one of the machines it worked on and originally it was connecting to machine 203 which wasn't letting me run. the "enter" is what will execute the line and activate my login into my ucsd account.
+`Explanation:` The reason I added the 201 was because that was one of the machines it worked on and originally it was connecting to machine 203 which wasn't letting me run. the `ssh` command is used to login into my ieng6 account.
 
 ![image](Step4)
 
