@@ -8,8 +8,8 @@ Upon running my code, I am getting just 1 , 2 but I need to return the indices o
 Upon reviewing the code you provided, it appears that a potential solution to the issue might involve modifying your `System.out.println` statement. Take a closer look at how the output is currently being printed and consider how you can incorporate square brackets around it. Reflect on the mechanics of the `System.out.println` command and explore ways to manipulate its output format. Feel free to reach out to me if you require additional assistance with this matter.
 
 ## Student:
-![image](studentSuccess)
-I have resolved the issue! While I was looking within the method I gave no thought to how I could get my desired output from manipulating the `system.out.println`. I added brackets before the result at index zero and after the result at index 1. This made it so my output looked like [1, 2] rather than just 1 , 2. Thank you so much for your help!
+![image](2)
+I have resolved the issue! While I was looking within the method I gave no thought to how I could get my desired output from manipulating the `System.out.println`. I added brackets before the result at index zero and after the result at index 1 for both of my return statements. This made it so my output looked like [1, 2] rather than just 1 , 2. Thank you so much for your help!
 
 ## My file and directory Structure:
 ![image](directory)
