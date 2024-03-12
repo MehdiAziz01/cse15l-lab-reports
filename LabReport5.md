@@ -15,10 +15,10 @@ I have resolved the issue! While I was looking within the method I gave no thoug
 ![image](directory)
 
 ## Contents of file before fixing bug:
-![image](studentWrongOutput)
+![image](1)
 
 ## Contents of my test.sh file before and after fixing bugs:
-![image](bashContents)
+![image](3)
 
 ## Full Command line of me running my code:
 ![image](fullCommandLine)
