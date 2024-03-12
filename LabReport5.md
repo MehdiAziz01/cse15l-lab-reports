@@ -20,13 +20,16 @@ I have resolved the issue! While I was looking within the method I gave no thoug
 ## Contents of my test.sh file before and after fixing bugs:
 ![image](3)
 
+## Contents of my Tester.java file before and after fixing bugs:
+![image](6)
+
 ## Full Command line of me running my code:
-![image](fullCommandLine)
+see above screenshot 1 and screenshot 2
 
 When I run bash `test.sh` it runs the contents that are in the test.sh file.
 
 ## What was needed to fix the bug:
-I had to change up line number 7 in my file that had the error to include the brackets. Before it was `System.out.println("Indices: " + result[0] + ", " + result[1]);` and after adding the brackets after the expected result I just put, `System.out.println("Indices: " + "[" + result[0] + ", " + result[1] + "]");`
+I had to change up line number 11 and 15 in my file that had the error to include the brackets. Before it was `System.out.println("Indices: " + result[0] + ", " + result[1]);` and after adding the brackets after the expected result I just put, `System.out.println("Indices: [" + result[0] + ", " + result[1] + "]");` I did this in line 11 and in line number 15
 
 # Part 2
 
