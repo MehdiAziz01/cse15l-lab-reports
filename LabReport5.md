@@ -1,7 +1,7 @@
 # Part 1
 
 ## Student:
-![image](studentWrongOutput)
+![image](1)
 Upon running my code, I am getting just 1 , 2 but I need to return the indices of the integers that add up to the target number. I want the output to be in square brackets but I am just getting the numbers. I think my error may be in initializing my `result` array and I believe I may not be returning the array correctly.
 
 ## TA:
